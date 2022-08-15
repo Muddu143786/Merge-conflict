@@ -1,6 +1,10 @@
-#!/bin/bash.
-echo -n "Enter the two numbers : "
-read num1 num2
-sum=`expr $num1 + $num2`
-echo "sum of two numbers is $sum“
+#!/bin/bash 
+echo "Enter a number"
+read num
+while [ $num -gt 0 ]
+do
+echo $num
+num=`expr $num - 1`
+Done
+>>>>>>> br1
 
