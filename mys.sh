@@ -7,4 +7,4 @@ echo $num
 num=`expr $num - 1`
 Done
 >>>>>>> br1
-
+Edited the file and added the new line
